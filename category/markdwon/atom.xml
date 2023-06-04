@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://s1acr.github.io</id>
+    <title>slacr_&#39;s blog • Posts by &#34;markdwon&#34; category</title>
+    <link href="https://s1acr.github.io" />
+    <updated>2023-04-08T00:00:00.000Z</updated>
+    <category term="MathJax" />
+    <category term="Tex" />
+    <category term="CSS" />
+    <category term="Network" />
+    <entry>
+        <id>https://s1acr.github.io/2023/04/08/[Markdown]%E8%AF%AD%E6%B3%95/</id>
+        <title>[Markdown]语法</title>
+        <link rel="alternate" href="https://s1acr.github.io/2023/04/08/[Markdown]%E8%AF%AD%E6%B3%95/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;markdown介绍， 基本语法，typora中编写markdown的方式&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;markdown介绍&#34;&gt;Markdown介绍&lt;a title=&#34;#markdown介绍&#34; href=&#34;#markdown介绍&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt;是一种轻量级标记语言, 旨在于成为一种&lt;strong&gt;易读易写&lt;/strong&gt;书写格式, &lt;strong&gt;兼容HTML&lt;/strong&gt;, 广泛应用于文档编写, 已有越来越多的网站支持Markdwon.&lt;/p&gt;
+&lt;h2 id=&#34;markdown编辑器&#34;&gt;Markdown编辑器&lt;a title=&#34;#markdown编辑器&#34; href=&#34;#markdown编辑器&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;推荐VSCode Obsdian 和 Typora, 这里介绍&lt;a href=&#34;https://typora.io/&#34; target=&#34;_blank&#34;&gt;Typora&lt;/a&gt;, 现已收费.&lt;/p&gt;
+&lt;h3 id=&#34;编辑模式&#34;&gt;编辑模式&lt;a title=&#34;#编辑模式&#34; href=&#34;#编辑模式&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;typora是&lt;strong&gt;Seamless Live Preview&lt;/strong&gt;, 在普通编辑模式下输入markdown语法会实时预览, 但我一般不在这个模式下书写, 因为自动生成会妨碍我们输入.&lt;br&gt;
+&lt;code&gt;ctrl+/&lt;/code&gt;切换到源代码模式, 开始书写真正的Markdown.&lt;/p&gt;
+&lt;h3 id=&#34;typora常用快捷键&#34;&gt;Typora常用快捷键&lt;a title=&#34;#typora常用快捷键&#34; href=&#34;#typora常用快捷键&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;div class=&#34;φbq&#34;&gt;&lt;div class=&#34;φbs&#34;&gt;&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;padding:0&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;padding:0&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl /&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;切换编辑模式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;shift F12&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;开发者工具&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl shift L&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;显示/隐藏侧边栏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;建议记住上面三个&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;φbq&#34;&gt;&lt;div class=&#34;φbs&#34;&gt;&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;padding:0&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;padding:0&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl shift S&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;另存为&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl F&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;查找&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl P&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;查找文档&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl N&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;新建文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;ctrl shift N&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;新建面板&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;h2 id=&#34;markdown语法&#34;&gt;Markdown语法&lt;a title=&#34;#markdown语法&#34; href=&#34;#markdown语法&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;内嵌html&#34;&gt;内嵌HTML&lt;a title=&#34;#内嵌html&#34; href=&#34;#内嵌html&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;可以直接写HTML, Markdown实际上是对HTML的封装, &lt;code&gt;shift F12&lt;/code&gt;打开开发者工具, 我们能看见Markdown的HTML实现&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/202304290056528.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;区段元素(span-elements)&#34;&gt;区段元素(span elements)&lt;a title=&#34;#区段元素(span-elements)&#34; href=&#34;#区段元素(span-elements)&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;加粗-斜体-代码-删除&#34;&gt;加粗 斜体 代码 删除&lt;a title=&#34;#加粗-斜体-代码-删除&#34; href=&#34;#加粗-斜体-代码-删除&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;strong&#34;&gt;**strong**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;emphasis&#34;&gt;*italic*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;code&#34;&gt;`code`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;~~del~~&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;italic&lt;/em&gt;&lt;br&gt;
+&lt;code&gt;code&lt;/code&gt;&lt;br&gt;
+&lt;s&gt;del&lt;/s&gt;&lt;/p&gt;
+&lt;h4 id=&#34;链接&#34;&gt;链接&lt;a title=&#34;#链接&#34; href=&#34;#链接&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[&lt;span class=&#34;string&#34;&gt;title&lt;/span&gt;](&lt;span class=&#34;link&#34;&gt;href&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[&lt;span class=&#34;string&#34;&gt;link to baidu&lt;/span&gt;](&lt;span class=&#34;link&#34;&gt;https://www.baidu.com&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.baidu.com&#34; target=&#34;_blank&#34;&gt;link to baidu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;href属性可以设置为&lt;strong&gt;锚点链接&lt;/strong&gt;, 这样我们能实现文内跳转&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[&lt;span class=&#34;string&#34;&gt;点击跳转到参考&lt;/span&gt;](&lt;span class=&#34;link&#34;&gt;#ref&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-xml&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;id&lt;/span&gt; = &lt;span class=&#34;string&#34;&gt;&amp;quot;ref&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;strong&#34;&gt;**参考:**&lt;/span&gt;&lt;span class=&#34;language-xml&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;#ref&#34;&gt;点击跳转到参考&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;自动跳转链接&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-xml&#34;&gt;&amp;lt;https://www.baidu.com&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.baidu.com&#34; target=&#34;_blank&#34;&gt;https://www.baidu.com&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;脚注和注释&#34;&gt;脚注和注释&lt;a title=&#34;#脚注和注释&#34; href=&#34;#脚注和注释&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;footnote [ ^1]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[&lt;span class=&#34;symbol&#34;&gt;^1&lt;/span&gt;]: &lt;span class=&#34;link&#34;&gt;expaination&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;点击前往注释&lt;br&gt;
+官方文档&lt;a href=&#34;%5B%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%5D(https://daringfireball.net/projects/markdown/syntax)&#34;&gt;^1&lt;/a&gt;&lt;br&gt;
+wiki百科&lt;a href=&#34;%5Bwiki%E7%99%BE%E7%A7%91%5D(https://zh.wikipedia.org/wiki/Markdown)&#34;&gt;^2&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;图片&#34;&gt;图片&lt;a title=&#34;#图片&#34; href=&#34;#图片&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;![&lt;span class=&#34;string&#34;&gt;Alt text&lt;/span&gt;](&lt;span class=&#34;link&#34;&gt;path&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&#34;../pics/Markdown%E8%AF%AD%E6%B3%95/illust_99872790_20230129_132735-16814946294191.jpg&#34; alt=&#34;illust_99872790_20230129_132735&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;区块元素(block-elements)&#34;&gt;区块元素(block elements)&lt;a title=&#34;#区块元素(block-elements)&#34; href=&#34;#区块元素(block-elements)&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;标题&#34;&gt;标题&lt;a title=&#34;#标题&#34; href=&#34;#标题&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;section&#34;&gt;# h1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;section&#34;&gt;### h3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;section&#34;&gt;###### h6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;引用&#34;&gt;引用&lt;a title=&#34;#引用&#34; href=&#34;#引用&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;quote&#34;&gt;&amp;gt; content&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;quote&#34;&gt;&amp;gt; &amp;gt; nest content&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;支持嵌套&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;顾城 一代人&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我知道这世界满是肮脏。&lt;br&gt;
+我知道要自私自利一样才能生活上活的更好。&lt;br&gt;
+我知道人心中始终涌动着恶意，哪怕我自己内心也是。&lt;br&gt;
+但我就是无法放弃善意与道德。&lt;br&gt;
+因为冰冷的黑暗始终不会让我有归属感，不让让我内心获得安宁。&lt;br&gt;
+因为只有善意与温暖会让我内心得到我最想要的平静。&lt;br&gt;
+所以即使明知这一切是如此绝望，我仍然在寻找善的理想乡。&lt;br&gt;
+黑暗给了我黑色的眼睛，我却用它寻找光明。&lt;br&gt;
+我是一只该在黑夜里飞舞的蛾子，却永远无法抵挡住那火光的诱惑，以至于被烧成了灰烬&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;列表&#34;&gt;列表&lt;a title=&#34;#列表&#34; href=&#34;#列表&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;无序&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;// * - + &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;bullet&#34;&gt;*&lt;/span&gt; todo&lt;span class=&#34;emphasis&#34;&gt;_1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;emphasis&#34;&gt;* todo_&lt;/span&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;bullet&#34;&gt;*&lt;/span&gt; todo&lt;span class=&#34;emphasis&#34;&gt;_3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;todo_1&lt;/li&gt;
+&lt;li&gt;todo_2&lt;/li&gt;
+&lt;li&gt;todo_3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;有序&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;bullet&#34;&gt;1.&lt;/span&gt; todo&lt;span class=&#34;emphasis&#34;&gt;_1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;emphasis&#34;&gt;2. todo_&lt;/span&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;bullet&#34;&gt;3.&lt;/span&gt; todo&lt;span class=&#34;emphasis&#34;&gt;_3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;代码块&#34;&gt;代码块&lt;a title=&#34;#代码块&#34; href=&#34;#代码块&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;// 没有空格&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;code&#34;&gt;` `&lt;/span&gt;`[language]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; code&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;code&#34;&gt;` `&lt;/span&gt;`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;表格&#34;&gt;表格&lt;a title=&#34;#表格&#34; href=&#34;#表格&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;column&lt;span class=&#34;emphasis&#34;&gt;_1 | column_&lt;/span&gt;2 | column&lt;span class=&#34;emphasis&#34;&gt;_3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;emphasis&#34;&gt;:--- | :---: | ---:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;emphasis&#34;&gt;left | center | right&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;div class=&#34;φbq&#34;&gt;&lt;div class=&#34;φbs&#34;&gt;&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;column_1&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;column_2&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;column_3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;left&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;center&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;right&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3 id=&#34;转义字符&#34;&gt;转义字符&lt;a title=&#34;#转义字符&#34; href=&#34;#转义字符&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;	\开头的转义字符&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;\   backslash&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;`   backtick&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;*   asterisk&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;_   underscore&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&amp;#125;  curly braces&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;[]  square brackets&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;()  parentheses&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#   hash mark&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;+   plus sign&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-   minus sign (hyphen)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.   dot&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;!   exclamation mark&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;或者用HTML中的转义字符:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;HTML特殊符号一览表:&lt;br&gt;
+&lt;a href=&#34;http://limi.lfszk.com/aspx/tool/htmlchar/?tool_id=24&#34; target=&#34;_blank&#34;&gt;http://limi.lfszk.com/aspx/tool/htmlchar/?tool_id=24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id = &#34;ref&#34;&gt;&lt;strong&gt;参考:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2023-04-08T00:00:00.000Z</updated>
+    </entry>
+</feed>

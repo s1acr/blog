@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>slacr_&#39;s blog • Posts by &#34;tex&#34; category</title>
+        <link>https://s1acr.github.io</link>
+        <description>slacr_ blog self blog website record coding githubpages</description>
+        <language>en</language>
+        <pubDate>Tue, 11 Apr 2023 08:00:00 +0800</pubDate>
+        <lastBuildDate>Tue, 11 Apr 2023 08:00:00 +0800</lastBuildDate>
+        <category>MathJax</category>
+        <category>Tex</category>
+        <category>CSS</category>
+        <category>Network</category>
+        <item>
+            <guid isPermalink="true">https://s1acr.github.io/2023/04/11/Mathjax-%E5%9C%A8Markdown%E4%B8%AD%E7%BC%96%E5%86%99Latex/</guid>
+            <title>Mathjax-在Markdown中编写Latex</title>
+            <link>https://s1acr.github.io/2023/04/11/Mathjax-%E5%9C%A8Markdown%E4%B8%AD%E7%BC%96%E5%86%99Latex/</link>
+            <category>MathJax</category>
+            <pubDate>Tue, 11 Apr 2023 08:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;a title=&#34;#mathjax&#34; href=&#34;#mathjax&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Mathjax是一个开源的Js显示引擎, 用来书写LaTex, MathML, AsciiMath, 将其转换成HTML+CSS, SVG, MathML, 适用于全部的浏览器, 现已更新到[第三版],  (&lt;a href=&#34;https://github.com/mathjax/MathJax&#34; target=&#34;_blank&#34;&gt;https://github.com/mathjax/MathJax&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;比如在网页中:&lt;/p&gt;
+&lt;script async src=&#34;//jsfiddle.net/roumtchz/6/embed/js,html,result/dark/&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ikeq/hexo-filter-mathjax-ssr&#34; target=&#34;_blank&#34;&gt;Mathjax-SSR&lt;/a&gt;&lt;br&gt;
+主题作者开发的预渲染引擎, 基于&lt;code&gt;Mathjax-node&lt;/code&gt;, 能将表达式转换成SVG&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://s1acr.github.io/2023/04/06/Tex%E4%BB%8B%E7%BB%8D/</guid>
+            <title>Tex介绍</title>
+            <link>https://s1acr.github.io/2023/04/06/Tex%E4%BB%8B%E7%BB%8D/</link>
+            <category>Tex</category>
+            <pubDate>Thu, 06 Apr 2023 08:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;简要介绍TEX和 Live Tex安装&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tex&#34;&gt;TEX&lt;a title=&#34;#tex&#34; href=&#34;#tex&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;TEX是&lt;code&gt;Donald Ervin Knuth&lt;/code&gt;编写的&lt;code&gt;电子排版系统&lt;/code&gt;,提供了一套功能强大并且十分灵活的排版语言，它多达 900 多条指令，并且 TeX 有宏功能，用户可以不断地定义自己适用的新命令来扩展 TeX 系统的功能。Tex本身是一种宏语言，而其他基于Tex的二次开发是Tex的宏语言。&lt;br&gt;
+TeX 的源程序是用 &lt;code&gt;Pascal&lt;/code&gt; 写成的，原因是 Knuth 希望 TeX 尽可能方便地移植到其它的操作系统中去。&lt;br&gt;
+TeX 的另一个重要的特征就是它的输出是&lt;code&gt;与设备无关的&lt;/code&gt;。TeX 的输出文件称为 DVI 文件，即是&lt;code&gt;Device Independent&lt;/code&gt;。一旦 TeX 处理了你的文件，你所得到的 DVI 文件就可以被送到任何输出设备如打印机，屏幕等并且总会得到相同的结果，而这与这些输出设备的限制没有任何关系。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Tex相关&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics/Tex%E4%BB%8B%E7%BB%8D/image-20230415015917024.png&#34; alt=&#34;image-20230415015917024&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;latex&#34;&gt;LaTex&lt;a title=&#34;#latex&#34; href=&#34;#latex&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Leslie Lamport&lt;/code&gt; 开发的 LaTeX 是当今世界上最流行和使用最为广泛的&lt;code&gt;TeX格式&lt;/code&gt;。LaTex是&lt;code&gt;基于Tex&lt;/code&gt;的排版系统, 是由Tex宏命令组成的&lt;code&gt;宏包&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tex发行版&#34;&gt;TeX发行版&lt;a title=&#34;#tex发行版&#34; href=&#34;#tex发行版&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;将排版引擎,宏包,编辑器,GUI等大量的文件组合打包起来发行, 就组成了TeX发行版.&lt;/p&gt;
+&lt;p&gt;Texlive：适用于 win 和 Linux 平台。安装包体积较大（4.7GB），自带数量巨大的宏包，也可以用附带的工具安装其它宏包。&lt;br&gt;
+Mactex：仅使用于 MacOS，特点同上。&lt;br&gt;
+Miktex：适用于所有平台，安装包体积小，排版时按需联网下载所需宏包。&lt;/p&gt;
+&lt;h3 id=&#34;在线latex编辑&#34;&gt;在线LaTex编辑&lt;a title=&#34;#在线latex编辑&#34; href=&#34;#在线latex编辑&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;如果你不想下载软件, 可以使用在线编辑器:&lt;/p&gt;
+&lt;p&gt;Overleaf&lt;a href=&#34;https://cn.overleaf.com/&#34; target=&#34;_blank&#34;&gt;https://cn.overleaf.com/&lt;/a&gt;&lt;br&gt;
+国内推荐 TeXPage&lt;a href=&#34;https://texpage.com/&#34; target=&#34;_blank&#34;&gt;https://texpage.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;下载tex-live&#34;&gt;下载TeX Live&lt;a title=&#34;#下载tex-live&#34; href=&#34;#下载tex-live&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://tug.org/texlive/&#34; target=&#34;_blank&#34;&gt;TeX Live&lt;/a&gt;是 TUG (TeX User Group) 发布并维护的的 TeX 系统，可以称得上是TeX的官方系统。我们推荐任何阶段的TeX用户，都尽可能使用 TeX Live，以保持在跨操作系统平台、跨用户的一致性。&lt;br&gt;
+下载TeX Live&lt;a href=&#34;https://tug.org/texlive/quickinstall.html&#34; target=&#34;_blank&#34;&gt;https://tug.org/texlive/quickinstall.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;选择相应的系统下载, 我是windows, 选择用installer下载&lt;/p&gt;
+&lt;p&gt;然后跟着提示安装, 把TexLive自带的TeXworks编辑器也装上&lt;/p&gt;
+&lt;p&gt;下载很慢, 显示要两个多小时, 耐心等待&lt;/p&gt;
+&lt;p&gt;下载完CMD输入 &lt;code&gt;tex -v&lt;/code&gt;就检测tex是否安装成功&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics/Tex%E4%BB%8B%E7%BB%8D/image-20230415015525802.png&#34; alt=&#34;image-20230415015525802&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;打开TeXwork就可以开始编写了&lt;/p&gt;
+&lt;h3 id=&#34;vscode插件&#34;&gt;Vscode插件&lt;a title=&#34;#vscode插件&#34; href=&#34;#vscode插件&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;VScode拥有广大的插件生态, 轻量高效, 几乎可以编写任何语言, 甚至你可以用来看小说, 玩游戏, 逛网站&lt;br&gt;
+下载对应扩展：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/s1acr/PicGoLib/main/Typora/202304181303186.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;/hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/LaTeX&#34; target=&#34;_blank&#34;&gt;wikipedia-Latex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;LaTeX%E5%BC%95%E6%93%8E%E3%80%81%E6%A0%BC%E5%BC%8F%E3%80%81%E5%AE%8F%E5%8C%85%E3%80%81%E5%8F%91%E8%A1%8C%E7%89%88%E5%A4%A7%E6%A2%B3%E7%90%86&#34;&gt;LaTeX引擎、格式、宏包、发行版大梳理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tug.org/texworks/#Documentation&#34; target=&#34;_blank&#34;&gt;Texworks文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ctex.org/docs/knowledgebase/tex/&#34; target=&#34;_blank&#34;&gt;Ctex-TeX简介&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://liam.page/texlive/&#34; target=&#34;_blank&#34;&gt;TeX Live 下载及安装说明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mirrors.mit.edu/CTAN/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf&#34; target=&#34;_blank&#34;&gt;一份简短的关于 LATEX 安装的介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id = &#34;7.&#34;&gt;&lt;a href=&#34;https://blog.csdn.net/Cai_deLong/article/details/113970205?spm=1001.2101.3001.6650.6&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-113970205-blog-80715834.235%5Ev28%5Epc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-113970205-blog-80715834.235%5Ev28%5Epc_relevant_default&amp;amp;utm_relevant_index=7&#34; target=&#34;_blank&#34;&gt;【LaTex使用总结】LaTex，pdflatex，xelatex，xetex等的区别和关系&lt;/a&gt;&lt;span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id = &#34;8.&#34;&gt; &lt;a href=&#34;https://blog.csdn.net/henu111/article/details/81239727&#34; target=&#34;_blank&#34;&gt;TeX 家族（TeX, pdfTeX, XeTeX, LuaTeX, LaTeX, pdfLaTeX, XeLaTeX …）&lt;/a&gt;&lt;span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/603669792&#34; target=&#34;_blank&#34;&gt;LaTeX小白兔手册-配置篇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://liam.page/2014/09/08/latex-introduction/&#34; target=&#34;_blank&#34;&gt;一份其实很短的 LaTeX 入门文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

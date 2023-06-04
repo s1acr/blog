@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>slacr_&#39;s blog • Posts by &#34;win&#34; category</title>
+        <link>https://s1acr.github.io</link>
+        <description>slacr_ blog self blog website record coding githubpages</description>
+        <language>en</language>
+        <pubDate>Sat, 15 Apr 2023 08:00:00 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Apr 2023 08:00:00 +0800</lastBuildDate>
+        <category>MathJax</category>
+        <category>Tex</category>
+        <category>CSS</category>
+        <category>Network</category>
+        <item>
+            <guid isPermalink="true">https://s1acr.github.io/2023/04/15/[Win11%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%A1%B9]/</guid>
+            <title>[Win11更改启动项]</title>
+            <link>https://s1acr.github.io/2023/04/15/[Win11%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%A1%B9]/</link>
+            <pubDate>Sat, 15 Apr 2023 08:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;code&gt;win R&lt;/code&gt; 输入 &lt;code&gt;taskmgr&lt;/code&gt; 或 &lt;code&gt;ctrl shift esc&lt;/code&gt; 打开资源管理器&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics/%5BWin11%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%A1%B9%5D/image-20230415124049251.png&#34; alt=&#34;image-20230415124049251&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

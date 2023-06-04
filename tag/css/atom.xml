@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://s1acr.github.io</id>
+    <title>slacr_&#39;s blog • Posts by &#34;css&#34; tag</title>
+    <link href="https://s1acr.github.io" />
+    <updated>2023-04-03T00:00:00.000Z</updated>
+    <category term="MathJax" />
+    <category term="Tex" />
+    <category term="CSS" />
+    <category term="Network" />
+    <entry>
+        <id>https://s1acr.github.io/2023/04/03/[%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E4%B8%89]%E6%9B%B4%E6%8D%A2%E5%AD%97%E4%BD%93%E4%B8%8E%E7%BE%8E%E5%8C%96/</id>
+        <title>[博客建设三]更换字体与美化</title>
+        <link rel="alternate" href="https://s1acr.github.io/2023/04/03/[%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E4%B8%89]%E6%9B%B4%E6%8D%A2%E5%AD%97%E4%BD%93%E4%B8%8E%E7%BE%8E%E5%8C%96/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;介绍如何创建属于自己的字体库, 以及写自己的插件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;更换字体&#34;&gt;更换字体&lt;a title=&#34;#更换字体&#34; href=&#34;#更换字体&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;_config.inside.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;font:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;​ url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;可以看到作者使用的是 google 提供的在线字体服务, 但国内无法访问.&lt;/p&gt;
+&lt;h3 id=&#34;创建字体库&#34;&gt;创建字体库&lt;a title=&#34;#创建字体库&#34; href=&#34;#创建字体库&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;获取一些字体资源, 我用的&lt;a href=&#34;https://fonts.google.com/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;Google Fonts&lt;/code&gt;&lt;/a&gt;&lt;br&gt;
+或者 &lt;a href=&#34;http://fl.foundertype.com/fontimg.html&#34; target=&#34;_blank&#34;&gt;国家字体库&lt;/a&gt;也有许多不错的中文字体&lt;/p&gt;
+&lt;p&gt;我们选择自己想要的字体下载.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/202304211631925.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Download Family&lt;/code&gt;会把所有该字体资源都下载, 你也可以在下面选择指定 font-weight 的字体下载&lt;/p&gt;
+&lt;p&gt;我们把他解压好放在 github 仓库的文件夹中&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/202304211634865.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这里我下载了多个字体&lt;/p&gt;
+&lt;h3 id=&#34;新建一个-css-文件&#34;&gt;新建一个 CSS 文件&lt;a title=&#34;#新建一个-css-文件&#34; href=&#34;#新建一个-css-文件&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;myblog.css&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;@font-face &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;font-family: &amp;#x27;Baloo_Paaji_2&amp;#x27;; // 字体名字, 之后引入字体时要用到, 一般填你下载的默认名字&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;font-style: normal; // italic 斜体, normal 正常&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;src: local(&amp;#x27;Baloo_Paaji_2&amp;#x27;), url(&amp;quot;Baloo_Paaji_2/BalooPaaji2-VariableFont_wght.ttf&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;// 网页加载字体时会先在本地查找是否存在 local 中的字体名字, 否则请求 url 中的字体资源, url 中填写相对字体的位置&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;将字体文件上传到 github, 用 jsDelivr 的免费 CDN 加速, 得到 cdn 链接&lt;/p&gt;
+&lt;h3 id=&#34;更改-font&#34;&gt;更改 font&lt;a title=&#34;#更改-font&#34; href=&#34;#更改-font&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+   &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;_config.inside.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;font:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;url: https://cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/googleFonts/myblog.css&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这样我们站点在加载时就获取了我们的字体库资源, 我们将后面的字体更改成我们引入的字体&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;_config.inside.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 这里引用的就是我们之前设置的 font-family 的名字&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    base: ZCOOL_XiaoWei&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    logo: Lobster&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    menu: Lobster&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    label: Lobster&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    heading: Baloo_Paaji_2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    code: Inconsolata, monospace&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    print: ZCOOL_XiaoWei&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;效果如下:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/202305011232573.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; class=&#34;φbp&#34;&gt;&lt;/p&gt;
+&lt;/hr&gt;
+&lt;h2 id=&#34;编写插件&#34;&gt;编写插件&lt;a title=&#34;#编写插件&#34; href=&#34;#编写插件&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笔者只会基本的 H5 C3 Js, 这已经足够我们编写一个自己的网页效果&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我稍微修改了字体太小与布局, 只需在&lt;code&gt;_config.inside.yml&lt;/code&gt;插入到相应的位置就行&lt;/p&gt;
+&lt;p&gt;example:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;sidebar 点击生成颜文字&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;//cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/randomColorTextEmoticons.js`&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;sunflower 点击樱花飘零&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;//cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/Sakura.js&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;推荐美化二维码的网站 &lt;a href=&#34;https://mh.cli.im/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/hr&gt;
+</content>
+        <category term="CSS" />
+        <updated>2023-04-03T00:00:00.000Z</updated>
+    </entry>
+</feed>
