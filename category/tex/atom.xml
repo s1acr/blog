@@ -3,25 +3,10 @@
     <id>https://s1acr.github.io</id>
     <title>slacr_&#39;s blog • Posts by &#34;tex&#34; category</title>
     <link href="https://s1acr.github.io" />
-    <updated>2023-04-11T00:00:00.000Z</updated>
-    <category term="MathJax" />
+    <updated>2023-04-06T00:00:00.000Z</updated>
     <category term="Tex" />
     <category term="CSS" />
     <category term="Network" />
-    <entry>
-        <id>https://s1acr.github.io/2023/04/11/Mathjax-%E5%9C%A8Markdown%E4%B8%AD%E7%BC%96%E5%86%99Latex/</id>
-        <title>Mathjax-在Markdown中编写Latex</title>
-        <link rel="alternate" href="https://s1acr.github.io/2023/04/11/Mathjax-%E5%9C%A8Markdown%E4%B8%AD%E7%BC%96%E5%86%99Latex/"/>
-        <content type="html">&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;a title=&#34;#mathjax&#34; href=&#34;#mathjax&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Mathjax是一个开源的Js显示引擎, 用来书写LaTex, MathML, AsciiMath, 将其转换成HTML+CSS, SVG, MathML, 适用于全部的浏览器, 现已更新到[第三版],  (&lt;a href=&#34;https://github.com/mathjax/MathJax&#34; target=&#34;_blank&#34;&gt;https://github.com/mathjax/MathJax&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;比如在网页中:&lt;/p&gt;
-&lt;script async src=&#34;//jsfiddle.net/roumtchz/6/embed/js,html,result/dark/&#34;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/ikeq/hexo-filter-mathjax-ssr&#34; target=&#34;_blank&#34;&gt;Mathjax-SSR&lt;/a&gt;&lt;br&gt;
-主题作者开发的预渲染引擎, 基于&lt;code&gt;Mathjax-node&lt;/code&gt;, 能将表达式转换成SVG&lt;/p&gt;
-</content>
-        <category term="MathJax" />
-        <updated>2023-04-11T00:00:00.000Z</updated>
-    </entry>
     <entry>
         <id>https://s1acr.github.io/2023/04/06/Tex%E4%BB%8B%E7%BB%8D/</id>
         <title>Tex介绍</title>

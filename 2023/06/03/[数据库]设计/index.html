@@ -1,11 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head><!-- hexo injector head_begin start -->
+<!DOCTYPE html><html lang="en"><head><!-- hexo injector head_begin start -->
 <link rel="stylesheet" href="/css/bilicard.css">
-<meta name="baidu-site-verification" content="codeva-pFQ3MHhnDY" />
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9317015731056598" crossorigin="anonymous"></script>
+<meta name="baidu-site-verification" content="codeva-pFQ3MHhnDY">
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9317015731056598" crossorigin="anonymous"></script>
 
-<script src="/config.c617d1472ca04ddc4ba1.js"></script>
+<script src="/config.b810d57c68fbb8a39a0a.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
 <title>[数据库]设计 - slacr_'s blog</title>
@@ -16,12 +14,12 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="description" content="关系数据理论   问题提出  一个关系模式应当是一个 5 元组 R(U,D,DOM,F) 当且仅当 U 上的一个关系 r 满足 F 时，r 称为关系模式 R&lt;U,F&gt;的一个关系。 作为一个二维表，关系要符合一个最基本的条件：每一个分量必须是不可分的数据项。满足了这个条件的关系模式就属于第一范式(1NF)。  数据依赖  数据依赖是一个关系内部属性与属性之间的一种约束关系。这种约束关系是">
+<meta name="description" content="关系数据理论   问题提出  一个关系模式应当是一个 5 元组 R(U,D,DOM,F) 当且仅当 U 上的一个关系 r 满足 F 时，r 称为关系模式 R<U,F>的一个关系。 作为一个二维表，关系要符合一个最基本的条件：每一个分量必须是不可分的数据项。满足了这个条件的关系模式就属于第一范式(1NF)。  数据依赖  数据依赖是一个关系内部属性与属性之间的一种约束关系。这种约束关系是">
 <meta property="og:type" content="website">
 <meta property="og:title" content="[数据库]设计">
 <meta property="og:url" content="https://s1acr.github.io/2023/06/03/[%E6%95%B0%E6%8D%AE%E5%BA%93]%E8%AE%BE%E8%AE%A1/index.html">
-<meta property="og:site_name" content="slacr_&#39;s blog">
-<meta property="og:description" content="关系数据理论   问题提出  一个关系模式应当是一个 5 元组 R(U,D,DOM,F) 当且仅当 U 上的一个关系 r 满足 F 时，r 称为关系模式 R&lt;U,F&gt;的一个关系。 作为一个二维表，关系要符合一个最基本的条件：每一个分量必须是不可分的数据项。满足了这个条件的关系模式就属于第一范式(1NF)。  数据依赖  数据依赖是一个关系内部属性与属性之间的一种约束关系。这种约束关系是">
+<meta property="og:site_name" content="slacr_'s blog">
+<meta property="og:description" content="关系数据理论   问题提出  一个关系模式应当是一个 5 元组 R(U,D,DOM,F) 当且仅当 U 上的一个关系 r 满足 F 时，r 称为关系模式 R<U,F>的一个关系。 作为一个二维表，关系要符合一个最基本的条件：每一个分量必须是不可分的数据项。满足了这个条件的关系模式就属于第一范式(1NF)。  数据依赖  数据依赖是一个关系内部属性与属性之间的一种约束关系。这种约束关系是">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg">
 <meta property="article:published_time" content="2023-06-03T00:00:00.000Z">
@@ -31,10 +29,282 @@
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg">
 <script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"slacr_","description":"Crap Programmer, College Student From CN. Idealist and Minimalism, life-long learner. I was lucky to find out what I truly have passion for. 🚬.","image":"https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg"},"url":"https://s1acr.github.io","image":"https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg","description":"slacr_ blog self blog website record coding githubpages","author":{"@type":"Person","name":"slacr_","description":"Crap Programmer, College Student From CN. Idealist and Minimalism, life-long learner. I was lucky to find out what I truly have passion for. 🚬.","image":"https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"数据库","url":"https://s1acr.github.io/2023/06/03/[%E6%95%B0%E6%8D%AE%E5%BA%93]%E8%AE%BE%E8%AE%A1/","headline":"[数据库]设计","image":"https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg","datePublished":"2023-06-03T00:00:00.000Z","dateModified":"2023-06-03T00:00:00.000Z","keywords":"","description":"slacr_ blog self blog website record coding githubpages","publisher":{"@type":"Organization","name":"slacr_'s blog","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg"}},"author":{"@type":"Person","name":"slacr_","description":"Crap Programmer, College Student From CN. Idealist and Minimalism, life-long learner. I was lucky to find out what I truly have passion for. 🚬.","image":"https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/Typora/qqAvatar.jpg"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://s1acr.github.io/2023/06/03/[%E6%95%B0%E6%8D%AE%E5%BA%93]%E8%AE%BE%E8%AE%A1/"}}]</script>
 
-<!-- hexo injector head_end start --><style is="theme">html{--inside-accent-color:#2a2b33;--inside-foreground-color:#363636;--inside-border-color:#e0e0e0;--inside-background:#f3f6f7;--inside-sidebar-background:#2a2b33;--inside-card-background:#fff;--inside-font-base:ZCOOL_XiaoWei;--inside-font-logo:Lobster,ZCOOL_XiaoWei;--inside-font-menu:Lobster,ZCOOL_XiaoWei;--inside-font-heading:Baloo_Paaji_2,ZCOOL_XiaoWei;--inside-font-label:Lobster,ZCOOL_XiaoWei;--inside-font-code:ZCOOL_XiaoWei,Inconsolata,monospace;--inside-font-print:ZCOOL_XiaoWei;--inside-content-width:800px;--inside-highlight-00:#1e1e1e;--inside-highlight-01:#323537;--inside-highlight-02:#464b50;--inside-highlight-03:#5f5a60;--inside-highlight-04:#838184;--inside-highlight-05:#a7a7a7;--inside-highlight-06:#c3c3c3;--inside-highlight-07:#ffffff;--inside-highlight-08:#cf6a4c;--inside-highlight-09:#cda869;--inside-highlight-0a:#f9ee98;--inside-highlight-0b:#8f9d6a;--inside-highlight-0c:#afc4db;--inside-highlight-0d:#7587a6;--inside-highlight-0e:#9b859d;--inside-highlight-0f:#9b703f;--inside-card-color:#fff;--inside-accent-color-005:rgba(42,43,51,.05);--inside-accent-color-01:rgba(42,43,51,.1);--inside-accent-color-02:rgba(42,43,51,.2);--inside-accent-color-04:rgba(42,43,51,.4);--inside-accent-color-08:rgba(42,43,51,.8)}</style><script src="/theme.9ecc9ab1.js"></script><link href="https://cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/googleFonts/myblog.css" rel="stylesheet"></link><link href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet"><link href="//cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/blogSelfDesignDist.css" rel="stylesheet">
+<!-- hexo injector head_end start --><style is="theme">html{--inside-accent-color:#2a2b33;--inside-foreground-color:#363636;--inside-border-color:#e0e0e0;--inside-background:#f3f6f7;--inside-sidebar-background:#2a2b33;--inside-card-background:#fff;--inside-font-base:ZCOOL_XiaoWei;--inside-font-logo:Lobster,ZCOOL_XiaoWei;--inside-font-menu:Lobster,ZCOOL_XiaoWei;--inside-font-heading:Baloo_Paaji_2,ZCOOL_XiaoWei;--inside-font-label:Lobster,ZCOOL_XiaoWei;--inside-font-code:ZCOOL_XiaoWei,Inconsolata,monospace;--inside-font-print:ZCOOL_XiaoWei;--inside-content-width:800px;--inside-highlight-00:#1e1e1e;--inside-highlight-01:#323537;--inside-highlight-02:#464b50;--inside-highlight-03:#5f5a60;--inside-highlight-04:#838184;--inside-highlight-05:#a7a7a7;--inside-highlight-06:#c3c3c3;--inside-highlight-07:#ffffff;--inside-highlight-08:#cf6a4c;--inside-highlight-09:#cda869;--inside-highlight-0a:#f9ee98;--inside-highlight-0b:#8f9d6a;--inside-highlight-0c:#afc4db;--inside-highlight-0d:#7587a6;--inside-highlight-0e:#9b859d;--inside-highlight-0f:#9b703f;--inside-card-color:#fff;--inside-accent-color-005:rgba(42,43,51,.05);--inside-accent-color-01:rgba(42,43,51,.1);--inside-accent-color-02:rgba(42,43,51,.2);--inside-accent-color-04:rgba(42,43,51,.4);--inside-accent-color-08:rgba(42,43,51,.8)}</style><script src="/theme.9ecc9ab1.js"></script><link href="https://cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/googleFonts/myblog.css" rel="stylesheet"><link href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet"><link href="//cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/blogSelfDesignDist.css" rel="stylesheet">
 <script src="/cipher.0329a0a9.js"></script>
 
 <script src="/palette.ead17218.js"></script>
-<link href="/styles.91e7dfca63c7c151daa6.css" rel="stylesheet"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
-<body lang="en"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script><script src="//unpkg.com/valine/dist/Valine.min.js"></script><script src="//cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="//cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/blogSelfDesign.js"></script><script src="/runtime.1ed960b0635ea0669f87.js"></script><script src="/polyfills.b7bf56fc45f931a8b83e.js"></script><script src="/main.543c891b4aad158701f3.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"superSample":2,"position":"right","hOffset":0,"vOffset":-20,"bottom":100,"width":150,"height":200},"mobile":{"show":true,"scale":0.5},"react":{"opacity":0.7,"opacityDefault":0.7,"opacityOnHover":0.9},"log":false});</script></body>
-</html>
+<link href="/styles.91e7dfca63c7c151daa6.css" rel="stylesheet"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><meta name="theme-color" content=""><script type="application/json" is="state">{&q;api/MjAyMy8wNi8wMy9b5pWw5o2u5bqTXeiuvuiuoQ.json&q;:{&q;title&q;:&q;[数据库]设计&q;,&q;date&q;:&q;2023-06-03T00:00:00.000Z&q;,&q;date_formatted&q;:{&q;ll&q;:&q;Jun 3, 2023&q;,&q;L&q;:&q;06/03/2023&q;,&q;MM-DD&q;:&q;06-03&q;},&q;link&q;:&q;2023/06/03/[数据库]设计&q;,&q;comments&q;:true,&q;categories&q;:[&q;数据库&q;],&q;updated&q;:&q;2023-06-03T00:00:00.000Z&q;,&q;content&q;:&q;&l;h2 id=\&q;关系数据理论\&q;&g;关系数据理论&l;a title=\&q;#关系数据理论\&q; href=\&q;#关系数据理论\&q;&g;&l;/a&g;&l;/h2&g;\n&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;问题提出&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;一个&l;code&g;关系模式&l;/code&g;应当是一个 5 元组 R(U,D,DOM,F)&l;/li&g;\n&l;li&g;当且仅当 U 上的一个关系 r 满足 F 时，r 称为关系模式 R&a;lt;U,F&a;gt;的一个关系。&l;/li&g;\n&l;li&g;作为一个二维表，关系要符合一个最基本的条件：&l;code&g;每一个分量必须是不可分的数据项&l;/code&g;。满足了这个条件的关系模式就属于&l;code&g;第一范式(1NF)&l;/code&g;。&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;数据依赖&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;code&g;数据依赖是一个关系内部属性与属性之间的一种约束关系&l;/code&g;。这种约束关系是通过属性间值的相等与否体现出来的数据间相关联系。它是现实世界属性间相互联系的抽象，是数据内在的性质，是语义的体现。&l;/li&g;\n&l;li&g;有许多种类型的数据依赖，其中最重要的是&l;code&g;函数依赖(Functional Dependency,FD)&l;/code&g;和&l;code&g;多值依赖(Multi-Valued Dependency,MVD)&l;/code&g;。&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;函数依赖&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;函数依赖类似于数学中的函数 y=f(x),自变量 x 确定之后，相应的函数值 y 也就唯一地确定了.&l;/li&g;\n&l;li&g;类似的有 Sname=f(Sno),Sdept=f(Sno),即 Sno 函数决定 Sname,Sno 函数决定 Sdept,或者说 Sname 和 Sdept 函数依赖于 Sno,记作&l;code&g;Sno→Sname,Sno→Sdept&l;/code&g;。&l;/li&g;\n&l;li&g;如 F={Sno→Sdept,Sdept→Mname,(Sno,Cno)→Grade}&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306031717559.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;li&g;这仅仅符合第一范式的关系模式存在以下问题: 数据冗余, 更新异常(update anomalies), 插入异常(insertion anomalies), 删除异常(deletion anomalies)&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;规范化&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;按属性间依赖情况来区分关系规范化程度为第一范式、第二范式、第三范式和第四范式等；然后将具有不合适性质的关系转换为更合适的形式。&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;函数依赖&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;设 R(U)是属性集 U 上的关系模式，X,Y 是 U 的子集。若对于 R(U)的任意一个可能的关系 r,r 中不可能存在两个元组在 X 上的属性值相等，而在 Y 上的属性值不等，则称 X 函数确定 Y 或 Y 函数依赖于 X,记作 X→Y。&l;/li&g;\n&l;li&g;函数依赖和别的数据依赖一样是语义范畴的概念，只能根据语义来确定一个函数依赖。&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032030242.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;码&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032045940.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;范式(normal form)&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;code&g;关系数据库中的关系&l;/code&g;是要满足一定要求的，&l;code&g;满足不同程度要求的为不同范式&l;/code&g;。满足最低要求的叫第一范式，简称1NF;在第一范式中满足进一步要求的为第二范式，其余以此类推。&l;/li&g;\n&l;li&g;有关范式理论的研究主要是&l;code&g;E.E.Codd&l;/code&g;做的工作。1971—1972年Codd系统地提出了1NF、2NF、3NF的概念，讨论了规范化的问题。1974年，Codd和Boyce共同提出了一个新范式，即BCNF。1976年Fagin提出了4NF。后来又有研究人员提出了5NF。&l;/li&g;\n&l;li&g;范式这个概念理解成&l;code&g;符合某一种级别的关系模式的集合&l;/code&g;，即R为第几范式就可以写成R∈xNF。&l;/li&g;\n&l;li&g;一个低一级范式的关系模式通过&l;code&g;模式分解(schema decomposition)&l;/code&g;可以转换为若干个高一级范式的关系模式的集合，这种过程就叫&l;code&g;规范化(normalization)&l;/code&g;。&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032051634.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;2NF&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;若R∈1NF,且&l;code&g;每一个非主属性完全函数依赖于任何一个候选码&l;/code&g;，则R∈2NF。&l;/li&g;\n&l;li&g;一个关系模式R不属于2NF,就会产生以下几个问题：插入异常, 删除异常, 修改复杂, 存储冗余度大.&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032058126.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;3NF&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032102759.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;li&g;{就是说再满足2NF的基础上不能存在传递依赖, 比如某一关系的属性组A-B-C, A-&a;gt;B, B-&a;gt;C, 则A-传递-&a;gt;C, 解决方法就是拆成两个关系 A-B, B-C就满足了3NF}&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;BCNF&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;code&g;BCNF(Boyce Codd Normal Form)&l;/code&g;是由Boyce与Codd提出的，比上述的3NF又进了一步，通常认为BCNF是修正的第三范式，有时也称为扩充的第三范式。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032117733.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;li&g;3NF和BCNF是在函数依赖的条件下对模式分解所能达到的分离程度的测度。一个模式中的关系模式如果都属于BCNF,那么在函数依赖范畴内它已实现了彻底的分离，已消除了插入和删除的异常。3NF的“不彻底”性表现在可能存在主属性对码的部分依赖和传递依赖。&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;多值依赖&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032154605.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;li&g;{也就是说, 若B多值依赖于A , A-&a;gt;-&a;gt;B, 那么给定一个A=a, 就能确定一组B的值 {b1, b2…}, 并且这组值的确定仅仅跟A有关, 与其他属性无关}&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;多值依赖的性质&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032150562.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;4NF&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032152134.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;li&g;4NF就是限制关系模式的属性之间不允许有非平凡且非函数依赖的多值依赖。&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;5NF&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;数据依赖中除函数依赖和多值依赖之外，还有其他数据依赖。例如有一种连接依赖。函数依赖是多值依赖的一种特殊情况，而多值依赖实际上又是连接依赖的一种特殊情况。但连接依赖不像函数依赖和多值依赖可由语义直接导出，而是在关系的连接运算时才反映出来。存在连接依赖的关系模式仍可能遇到数据冗余及插入、修改、删除异常等问题。如果消除了属于4NF的关系模式中存在的连接依赖，则可以进一步达到5NF的关系模式。&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;规范化思想&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;规范化的基本思想是逐步消除数据依赖中不合适的部分，使模式中的各关系模式达到某种程度的&a;quot;分离&a;quot;, 即“一事一地”的模式设计原则。让一个关系描述一个概念、一个实体或者实体间的一种联系。若多于一个概念就把它“分离”出去。因此所谓规范化实质上是&l;code&g;概念的单一化&l;/code&g;。&l;/li&g;\n&l;li&g;关系模式的规范化过程是通过对关系模式的分解来实现的，即&l;code&g;把低一级的关系模式分解为若干个高一级的关系模式&l;/code&g;。这种分解不是唯一的。&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032202011.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032125773.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;h2 id=\&q;数据库设计\&q;&g;数据库设计&l;a title=\&q;#数据库设计\&q; href=\&q;#数据库设计\&q;&g;&l;/a&g;&l;/h2&g;\n&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;基础&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;数据库设计是指对于一个给定的应用环境，构造(设计)优化的数据库逻辑模式和物理结构，并据此建立数据库及其应用系统，使之能够有效地存储和管理数据，满足各种用户的应用需求，包括信息管理要求和数据操作要求。&l;/li&g;\n&l;li&g;“三分技术，七分管理，十二分基础数据” 是数据库设计的特点之一。&l;/li&g;\n&l;li&g;数据库设计应该和应用系统设计相结合。整个设计过程中要把数据库结构设计和对数据的处理设计密切结合起来。这是数据库设计的特点之二。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041436902.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;li&g;各种数据库设计方法。例如，新奥尔良(New Orleans)方法、基于E-R模型的设计方法、3NF(第三范式)的设计方法、面向对象的数据库设计方法、统一建模语言(Unified Model Language,UML)方法等。&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;数据库设计基本步骤&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;code&g;需求分析&l;/code&g;&l;/li&g;\n&l;li&g;&l;code&g;概念结构设计&l;/code&g;&l;/li&g;\n&l;li&g;&l;code&g;逻辑结构设计&l;/code&g;&l;/li&g;\n&l;li&g;&l;code&g;物理结构设计&l;/code&g;&l;/li&g;\n&l;li&g;&l;code&g;数据库实施&l;/code&g;&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;code&g;数据库运行和维护&l;/code&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041439359.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041442128.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041444951.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;需求分析&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;需求分析的任务是通过详细调查现实世界要处理的对象(组织、部门、企业等),充分了解原系统(手工系统或计算机系统)的工作概况，明确用户的各种需求，然后在此基础上确定新系统的功能。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041449872.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;数据字典&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;数据字典是进行详细的数据收集和数据分析所获得的主要成果。它是关于数据库中数据的描述，即元数据，而不是数据本身。数据字典是在需求分析阶段建立，在数据库设计过程中不断修改、充实、完善的。&l;/li&g;\n&l;li&g;数据字典通常包括&l;code&g;数据项、数据结构、数据流、数据存储和处理过程&l;/code&g;几部分。其中数据项是数据的最小组成单位，若干个数据项可以组成一个数据结构。数据字典通过对数据项和数据结构的定义来描述数据流、数据存储的逻辑内容。&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;概念结构设计&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;将需求分析得到的&l;code&g;用户需求抽象为信息结构&l;/code&g;(即概念模型)的过程就是概念结构设计。&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;E-R模型&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;P.P.S.Chen提出的E-R模型是用E-R图来描述现实世界的概念模型.&l;/li&g;\n&l;li&g;&l;strong&g;&l;code&g;实体之间的联系&l;/code&g;&l;/strong&g;&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041458331.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;li&g;&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041501108.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q; class=\&q;φbp\&q;&g;&l;/li&g;\n&l;li&g;N个实体型之间的联系度为N,也称为N元联系。&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;E-R图&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;E-R图提供了表示实体型、属性和联系的方法。&l;/li&g;\n&l;li&g;实体型用矩形表示，矩形框内写明实体名。&l;/li&g;\n&l;li&g;属性用椭圆形表示，并用无向边将其与相应的实体型连接起来。&l;/li&g;\n&l;li&g;联系用菱形表示，菱形框内写明联系名，并用无向边分别与有关实体型连接起来，同时在无向边旁标上联系的类型(1:1、1:n或m:n)。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041506766.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;扩展的E-R模型&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;ISA联系&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;遇到某些实体型是某个实体型的子类型。例如，研究生和本科生是学生的子类型，学生是父类型。这种父类-子类联系称为ISA联系，表示“is a”的语义. ISA联系用三角形来表示。&l;/li&g;\n&l;li&g;ISA联系一个重要的性质是子类继承了父类的所有属性，描述了对一个实体型中实体的一种分类方法.&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;code&g;分类属性&l;/code&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;根据分类属性的值把父实体型中的实体分派到子实体型中&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041513447.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;code&g;不相交约束与可重叠约束&l;/code&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;不相交约束描述父类中的一个实体不能同时属于多个子类中的实体集，即一个父类中的实体最多属于一个子类实体集，用ISA联系三角形符号内加一个叉号“X”来表示。如果父类中的一个实体能同时属于多个子类中的实体集，则称为可重叠约束，子类符号中没有叉号表示是可重叠的。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041521971.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;code&g;Part-of联系 &l;/code&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;Part-of联系即部分联系，它表明某个实体型是另外一个实体型的一部分。例如汽车和轮子两个实体型，轮子实体是汽车实体的一部分，即Part-of汽车实体。Part-of联系可以分为两种情况，一种是整体实体如果被破坏，部分实体仍然可以独立存在，称为&l;code&g;非独占&l;/code&g;的Part-of联系. 非独占的Part-of联系可以通过基数约束来表达。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041526631.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;br&g;\n汽车队轮子的基数约束是0…1,这样的约束表示非强制参与联系, 轮子对汽车的约束 4…4, 强制参与联系.&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;li&g;与非独占联系相反，还有一种Part-of联系是&l;code&g;独占&l;/code&g;联系。即整体实体如果被破坏，部分实体不能存在，在E-R图中用&l;code&g;弱实体类型和识别联系&l;/code&g;来表示独占联系。如果&l;code&g;一个实体型的存在依赖于其他实体型的存在&l;/code&g;，则&l;code&g;这个实体型叫做弱实体型&l;/code&g;，否则叫做&l;code&g;强实体型&l;/code&g;。&l;/li&g;\n&l;li&g;在E-R图中用双矩形表示弱实体型，用双菱形表示识别联系。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041532199.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;E-R图的集成&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;经常采用的策略是自顶向下地进行需求分析，然后再自底向上地设计概念结构。即首先设计各子系统的分E-R图，然后将它们集成起来，得到全局E-R图。&l;br&g;\n&l;img src=\&q;https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041541081.png\&q; alt=\&q;\&q; loading=\&q;lazy\&q;&g;&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;逻辑结构设计&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;概念结构是独立于任何一种数据模型的信息结构，逻辑结构设计的任务就是把概念结构设计阶段设计好的基本E-R图转换为与选用数据库管理系统产品所支持的数据模型相符合的逻辑结构。&l;/li&g;\n&l;li&g;一般一个实体型转换为一个关系模式&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;div class=\&q;φbu φbx\&q;&g;\n&l;details&g;\n&l;summary&g;&l;strong&g;&l;code&g;物理结构设计&l;/code&g;&l;/strong&g;&l;/summary&g;\n&l;ul&g;\n&l;li&g;为一个给定的逻辑数据模型选取一个最适合应用要求的物理结构的过程.&l;/li&g;\n&l;li&g;&l;strong&g;&l;code&g;关系模式存取方法选择&l;/code&g;&l;/strong&g;&l;/li&g;\n&l;li&g;存取方法是快速存取数据库中数据的技术。数据库管理系统一般提供多种存取方法。常用的存取方法为&l;code&g;索引方法和聚簇(clustering)方法&l;/code&g;。B+树索引和hash索引是数据库中经典的存取方法，使用最普遍。&l;/li&g;\n&l;/details&g;\n&l;/li&g;\n&l;/ul&g;\n&l;/div&g;&l;hr&g;\n&l;p&g;&l;strong&g;参考&l;/strong&g;&l;/p&g;\n&l;ol&g;\n&l;li&g;数据库系统概论/王珊 第五版&l;/li&g;\n&l;/ol&g;\n&q;,&q;prev&q;:{&q;title&q;:&q;[VScode]leetcode调试刷题&q;,&q;link&q;:&q;2023/06/03/[VScode]leetcode调试刷题&q;},&q;next&q;:{&q;title&q;:&q;[VScode]配置C_C++开发环境&q;,&q;link&q;:&q;2023/06/01/[VScode]配置C_C++开发环境&q;},&q;plink&q;:&q;https://s1acr.github.io/2023/06/03/[数据库]设计/&q;,&q;toc&q;:[{&q;id&q;:&q;关系数据理论&q;,&q;title&q;:&q;关系数据理论&q;,&q;index&q;:&q;1&q;},{&q;id&q;:&q;数据库设计&q;,&q;title&q;:&q;数据库设计&q;,&q;index&q;:&q;2&q;}],&q;reward&q;:true,&q;copyright&q;:{&q;author&q;:&q;slacr_&q;,&q;license&q;:&q;&l;a href=\&q;https://creativecommons.org/licenses/by-nc-sa/4.0/\&q; target=\&q;_blank\&q;&g;&l;img src = \&q;/lib/cc-by-nc-sa.svg\&q;&g;CC BY-NC-ND 4.0&l;/a&g;&q;,&q;published&q;:&q;June 3, 2023&q;,&q;updated&q;:&q;June 3, 2023&q;},&q;reading_time&q;:&q;3510 words in 23 min&q;}}</script></head>
+<body lang="en"><!-- hexo injector body_begin start --><is-a class="φh" ng-version="12.1.0"><is-k class="φcu"><div class="φdg"><section class="φdh"><header class="φcv"><i class="φda"></i><!----><div issnippet="" class="φcx"><img src="https://thirdqq.qlogo.cn/g?b=oidb&amp;k=ia9j8LGcEXYic3XyY1h1ibnxg&amp;s=0&amp;rand=1680719837">
+</div><!----><!----><a href="" class="φcz">slacr_</a><p class="φcy">Crap Programmer, College Student From CN. Idealist and Minimalism, life-long learner. I was lucky to find out what I truly have passion for. 🚬.</p></header><div class="φdl"><a routerlink="/archives" class="φdm" href="/archives"><span>57</span><span>Archives</span></a><a class="φdm" href="/categories/C"><span>16</span><span>Categories</span></a><!----><a routerlink="/tags" class="φdm" href="/tags"><span>3</span><span>Tags</span></a><!----></div><!----><nav class="φdi"><a class="φdj" href="/">Home</a><!----><!----><!----><a class="φdj" href="/search">Search</a><!----><!----><!----><a class="φdj" href="/link">Link</a><!----><!----><!----><a class="φdj" href="/log">Log</a><!----><!----><!----><!----></nav><!----><div issnippet="" class="φb"><is-palette col="5" theme="#673ab7,#3f51b5,#2196f3,#009688,#4caf50,#ff9800,#ff5722,#795548,#607D8B,#2a2b33"></is-palette></div><div issnippet="" class="φb">
+</div><div issnippet="" class="φb">
+</div><div issnippet="" class="φb">
+</div><!----><!----><!----></section><footer class="φdb φdc"><div class="φde"><!----><a target="_blank" rel="external nofollow noopener" class="φdf" title="email me" href="mailto:diogocdiogocosta3346@gmail.com"><i class="iκ-email"></i></a><!----><!----><!----><a target="_blank" rel="external nofollow noopener" class="φdf" title="Feed" href="/atom.xml"><i class="iκ-feed"></i></a><!----><!----><!----><a target="_blank" rel="external nofollow noopener" class="φdf" title="github" href="https://github.com/s1acr"><i class="iκ-github"></i></a><!----><!----><!----><a target="_blank" rel="external nofollow noopener" class="φdf" title="qqGroup" href="https://qm.qq.com/cgi-bin/qm/qr?k=CwUa3gRbNtBAJRLHVwFiM4KZBiuqBSk9&amp;jump_from=webapi&amp;authKey=FhTodgrqXmM0pc0x/fT1U9yAtc6yJlWqoc5qnT5QepMGdVuCUxRlmY3bGklQd7fW"><i class="iκ-qq"></i></a><!----><!----><!----></div><!----><p class="φe">© 2023 <span id="sunflowerArea"><span id="sunflower">🌻</span> <a id="mySign" href="javascript:;"> Slacr F</a></span></p><!----><!----><p class="φe"><span id="busuanzi_container_site_uv" style="display:none">Total <b><span id="busuanzi_value_site_uv"></span></b> Visitors </span><span id="busuanzi_container_site_pv" style="display:none"><b><span id="busuanzi_value_site_pv"></span></b> Views</span><br> Hosted by <a target="_blank" rel="external nofollow" href="https://pages.github.com/"><b>Github Pages</b></a></p><!----></footer></div></is-k><div class="φj"><div class="φi"><div class="φn"><main class="φm"><router-outlet></router-outlet><is-r class="φet"><header class="φfd φfe" style="background-image:;background-color:;"><div class="φfm"><h1 class="φfp">[数据库]设计</h1><!----><p class="φff"><span class="φfg φfk">Jun 3, 2023</span><a class="φfg φfi" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a><!----><span class="φfg φfj">3510 words in 23 min</span><!----><!----></p><!----><!----></div></header><article itemscope="" itemtype="http://schema.org/Article" class="φew" data-title="[数据库]设计"><div itemprop="articleBody" issnippet="" iszoomable="" class="φe"><h2 id="关系数据理论">关系数据理论<a title="#关系数据理论" href="#关系数据理论"></a></h2>
+<div class="φbu φbx">
+<details>
+<summary><strong><code>问题提出</code></strong></summary>
+<ul>
+<li>一个<code>关系模式</code>应当是一个 5 元组 R(U,D,DOM,F)</li>
+<li>当且仅当 U 上的一个关系 r 满足 F 时，r 称为关系模式 R&lt;U,F&gt;的一个关系。</li>
+<li>作为一个二维表，关系要符合一个最基本的条件：<code>每一个分量必须是不可分的数据项</code>。满足了这个条件的关系模式就属于<code>第一范式(1NF)</code>。</li>
+<details>
+<summary><strong><code>数据依赖</code></strong></summary>
+<ul>
+<li><code>数据依赖是一个关系内部属性与属性之间的一种约束关系</code>。这种约束关系是通过属性间值的相等与否体现出来的数据间相关联系。它是现实世界属性间相互联系的抽象，是数据内在的性质，是语义的体现。</li>
+<li>有许多种类型的数据依赖，其中最重要的是<code>函数依赖(Functional Dependency,FD)</code>和<code>多值依赖(Multi-Valued Dependency,MVD)</code>。</li>
+<details>
+<summary><strong><code>函数依赖</code></strong></summary>
+<ul>
+<li>函数依赖类似于数学中的函数 y=f(x),自变量 x 确定之后，相应的函数值 y 也就唯一地确定了.</li>
+<li>类似的有 Sname=f(Sno),Sdept=f(Sno),即 Sno 函数决定 Sname,Sno 函数决定 Sdept,或者说 Sname 和 Sdept 函数依赖于 Sno,记作<code>Sno→Sname,Sno→Sdept</code>。</li>
+<li>如 F={Sno→Sdept,Sdept→Mname,(Sno,Cno)→Grade}<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306031717559.png" alt="" loading="lazy"></li>
+<li>这仅仅符合第一范式的关系模式存在以下问题: 数据冗余, 更新异常(update anomalies), 插入异常(insertion anomalies), 删除异常(deletion anomalies)</li>
+</ul></details>
+
+</ul>
+
+</details></ul>
+
+
+</details></div><div class="φbu φbx">
+<details>
+<summary><strong><code>规范化</code></strong></summary>
+<ul>
+<li>按属性间依赖情况来区分关系规范化程度为第一范式、第二范式、第三范式和第四范式等；然后将具有不合适性质的关系转换为更合适的形式。</li>
+<details>
+<summary><strong><code>函数依赖</code></strong></summary>
+<ul>
+<li>设 R(U)是属性集 U 上的关系模式，X,Y 是 U 的子集。若对于 R(U)的任意一个可能的关系 r,r 中不可能存在两个元组在 X 上的属性值相等，而在 Y 上的属性值不等，则称 X 函数确定 Y 或 Y 函数依赖于 X,记作 X→Y。</li>
+<li>函数依赖和别的数据依赖一样是语义范畴的概念，只能根据语义来确定一个函数依赖。</li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032030242.png" alt="" loading="lazy" class="φbp"></li>
+</ul></details>
+
+<details>
+<summary><strong><code>码</code></strong></summary>
+<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032045940.png" alt="" loading="lazy" class="φbp"></li>
+</ul></details>
+
+<details>
+<summary><strong><code>范式(normal form)</code></strong></summary>
+<ul>
+<li><code>关系数据库中的关系</code>是要满足一定要求的，<code>满足不同程度要求的为不同范式</code>。满足最低要求的叫第一范式，简称1NF;在第一范式中满足进一步要求的为第二范式，其余以此类推。</li>
+<li>有关范式理论的研究主要是<code>E.E.Codd</code>做的工作。1971—1972年Codd系统地提出了1NF、2NF、3NF的概念，讨论了规范化的问题。1974年，Codd和Boyce共同提出了一个新范式，即BCNF。1976年Fagin提出了4NF。后来又有研究人员提出了5NF。</li>
+<li>范式这个概念理解成<code>符合某一种级别的关系模式的集合</code>，即R为第几范式就可以写成R∈xNF。</li>
+<li>一个低一级范式的关系模式通过<code>模式分解(schema decomposition)</code>可以转换为若干个高一级范式的关系模式的集合，这种过程就叫<code>规范化(normalization)</code>。</li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032051634.png" alt="" loading="lazy" class="φbp"></li>
+</ul></details>
+
+<details>
+<summary><strong><code>2NF</code></strong></summary>
+<ul>
+<li>若R∈1NF,且<code>每一个非主属性完全函数依赖于任何一个候选码</code>，则R∈2NF。</li>
+<li>一个关系模式R不属于2NF,就会产生以下几个问题：插入异常, 删除异常, 修改复杂, 存储冗余度大.</li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032058126.png" alt="" loading="lazy" class="φbp"></li>
+</ul></details>
+
+<details>
+<summary><strong><code>3NF</code></strong></summary>
+<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032102759.png" alt="" loading="lazy" class="φbp"></li>
+<li>{就是说再满足2NF的基础上不能存在传递依赖, 比如某一关系的属性组A-B-C, A-&gt;B, B-&gt;C, 则A-传递-&gt;C, 解决方法就是拆成两个关系 A-B, B-C就满足了3NF}</li>
+</ul></details>
+
+<details>
+<summary><strong><code>BCNF</code></strong></summary>
+<ul>
+<li><code>BCNF(Boyce Codd Normal Form)</code>是由Boyce与Codd提出的，比上述的3NF又进了一步，通常认为BCNF是修正的第三范式，有时也称为扩充的第三范式。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032117733.png" alt="" loading="lazy"></li>
+<li>3NF和BCNF是在函数依赖的条件下对模式分解所能达到的分离程度的测度。一个模式中的关系模式如果都属于BCNF,那么在函数依赖范畴内它已实现了彻底的分离，已消除了插入和删除的异常。3NF的“不彻底”性表现在可能存在主属性对码的部分依赖和传递依赖。</li>
+</ul></details>
+
+<details>
+<summary><strong><code>多值依赖</code></strong></summary>
+<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032154605.png" alt="" loading="lazy" class="φbp"></li>
+<li>{也就是说, 若B多值依赖于A , A-&gt;-&gt;B, 那么给定一个A=a, 就能确定一组B的值 {b1, b2…}, 并且这组值的确定仅仅跟A有关, 与其他属性无关}</li>
+<details>
+<summary><strong><code>多值依赖的性质</code></strong></summary>
+<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032150562.png" alt="" loading="lazy" class="φbp"></li>
+</ul></details>
+
+</ul>
+
+<details>
+<summary><strong><code>4NF</code></strong></summary>
+<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032152134.png" alt="" loading="lazy" class="φbp"></li>
+<li>4NF就是限制关系模式的属性之间不允许有非平凡且非函数依赖的多值依赖。</li>
+</ul></details>
+
+<details>
+<summary><strong><code>5NF</code></strong></summary>
+<ul>
+<li>数据依赖中除函数依赖和多值依赖之外，还有其他数据依赖。例如有一种连接依赖。函数依赖是多值依赖的一种特殊情况，而多值依赖实际上又是连接依赖的一种特殊情况。但连接依赖不像函数依赖和多值依赖可由语义直接导出，而是在关系的连接运算时才反映出来。存在连接依赖的关系模式仍可能遇到数据冗余及插入、修改、删除异常等问题。如果消除了属于4NF的关系模式中存在的连接依赖，则可以进一步达到5NF的关系模式。</li>
+</ul></details>
+
+<details>
+<summary><strong><code>规范化思想</code></strong></summary>
+<ul>
+<li>规范化的基本思想是逐步消除数据依赖中不合适的部分，使模式中的各关系模式达到某种程度的"分离", 即“一事一地”的模式设计原则。让一个关系描述一个概念、一个实体或者实体间的一种联系。若多于一个概念就把它“分离”出去。因此所谓规范化实质上是<code>概念的单一化</code>。</li>
+<li>关系模式的规范化过程是通过对关系模式的分解来实现的，即<code>把低一级的关系模式分解为若干个高一级的关系模式</code>。这种分解不是唯一的。</li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032202011.png" alt="" loading="lazy" class="φbp"></li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306032125773.png" alt="" loading="lazy" class="φbp"></li>
+</ul></details>
+
+</details></ul>
+
+
+</details></div><h2 id="数据库设计">数据库设计<a title="#数据库设计" href="#数据库设计"></a></h2>
+<div class="φbu φbx">
+<details>
+<summary><strong><code>基础</code></strong></summary>
+<ul>
+<li>数据库设计是指对于一个给定的应用环境，构造(设计)优化的数据库逻辑模式和物理结构，并据此建立数据库及其应用系统，使之能够有效地存储和管理数据，满足各种用户的应用需求，包括信息管理要求和数据操作要求。</li>
+<li>“三分技术，七分管理，十二分基础数据” 是数据库设计的特点之一。</li>
+<li>数据库设计应该和应用系统设计相结合。整个设计过程中要把数据库结构设计和对数据的处理设计密切结合起来。这是数据库设计的特点之二。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041436902.png" alt="" loading="lazy"></li>
+<li>各种数据库设计方法。例如，新奥尔良(New Orleans)方法、基于E-R模型的设计方法、3NF(第三范式)的设计方法、面向对象的数据库设计方法、统一建模语言(Unified Model Language,UML)方法等。</li>
+<details>
+<summary><strong><code>数据库设计基本步骤</code></strong></summary>
+<ul>
+<li><code>需求分析</code></li>
+<li><code>概念结构设计</code></li>
+<li><code>逻辑结构设计</code></li>
+<li><code>物理结构设计</code></li>
+<li><code>数据库实施</code></li>
+<details>
+<summary><code>数据库运行和维护</code></summary>
+<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041439359.png" alt="" loading="lazy"><br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041442128.png" alt="" loading="lazy"><br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041444951.png" alt="" loading="lazy"></li>
+</ul></details>
+
+</ul>
+
+</details></ul>
+
+
+</details></div><div class="φbu φbx">
+<details>
+<summary><strong><code>需求分析</code></strong></summary>
+<ul>
+<li>需求分析的任务是通过详细调查现实世界要处理的对象(组织、部门、企业等),充分了解原系统(手工系统或计算机系统)的工作概况，明确用户的各种需求，然后在此基础上确定新系统的功能。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041449872.png" alt="" loading="lazy"></li>
+<details>
+<summary><strong><code>数据字典</code></strong></summary>
+<ul>
+<li>数据字典是进行详细的数据收集和数据分析所获得的主要成果。它是关于数据库中数据的描述，即元数据，而不是数据本身。数据字典是在需求分析阶段建立，在数据库设计过程中不断修改、充实、完善的。</li>
+<li>数据字典通常包括<code>数据项、数据结构、数据流、数据存储和处理过程</code>几部分。其中数据项是数据的最小组成单位，若干个数据项可以组成一个数据结构。数据字典通过对数据项和数据结构的定义来描述数据流、数据存储的逻辑内容。</li>
+</ul></details>
+
+</ul>
+
+
+</details></div><div class="φbu φbx">
+<details>
+<summary><strong><code>概念结构设计</code></strong></summary>
+<ul>
+<li>将需求分析得到的<code>用户需求抽象为信息结构</code>(即概念模型)的过程就是概念结构设计。</li>
+<details>
+<summary><strong><code>E-R模型</code></strong></summary>
+<ul>
+<li>P.P.S.Chen提出的E-R模型是用E-R图来描述现实世界的概念模型.</li>
+<li><strong><code>实体之间的联系</code></strong></li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041458331.png" alt="" loading="lazy" class="φbp"></li>
+<li><img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041501108.png" alt="" loading="lazy" class="φbp"></li>
+<li>N个实体型之间的联系度为N,也称为N元联系。</li>
+</ul></details>
+
+<details>
+<summary><strong><code>E-R图</code></strong></summary>
+<ul>
+<li>E-R图提供了表示实体型、属性和联系的方法。</li>
+<li>实体型用矩形表示，矩形框内写明实体名。</li>
+<li>属性用椭圆形表示，并用无向边将其与相应的实体型连接起来。</li>
+<li>联系用菱形表示，菱形框内写明联系名，并用无向边分别与有关实体型连接起来，同时在无向边旁标上联系的类型(1:1、1:n或m:n)。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041506766.png" alt="" loading="lazy"></li>
+</ul></details>
+
+<details>
+<summary><strong><code>扩展的E-R模型</code></strong></summary>
+<ul>
+<details>
+<summary><strong><code>ISA联系</code></strong></summary>
+<ul>
+<li>遇到某些实体型是某个实体型的子类型。例如，研究生和本科生是学生的子类型，学生是父类型。这种父类-子类联系称为ISA联系，表示“is a”的语义. ISA联系用三角形来表示。</li>
+<li>ISA联系一个重要的性质是子类继承了父类的所有属性，描述了对一个实体型中实体的一种分类方法.</li>
+<details>
+<summary><code>分类属性</code></summary>
+<ul>
+<li>根据分类属性的值把父实体型中的实体分派到子实体型中<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041513447.png" alt="" loading="lazy"></li>
+</ul></details>
+
+<details>
+<summary><code>不相交约束与可重叠约束</code></summary>
+<ul>
+<li>不相交约束描述父类中的一个实体不能同时属于多个子类中的实体集，即一个父类中的实体最多属于一个子类实体集，用ISA联系三角形符号内加一个叉号“X”来表示。如果父类中的一个实体能同时属于多个子类中的实体集，则称为可重叠约束，子类符号中没有叉号表示是可重叠的。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041521971.png" alt="" loading="lazy"></li>
+</ul></details>
+
+<details>
+<summary><code>Part-of联系 </code></summary>
+<ul>
+<li>Part-of联系即部分联系，它表明某个实体型是另外一个实体型的一部分。例如汽车和轮子两个实体型，轮子实体是汽车实体的一部分，即Part-of汽车实体。Part-of联系可以分为两种情况，一种是整体实体如果被破坏，部分实体仍然可以独立存在，称为<code>非独占</code>的Part-of联系. 非独占的Part-of联系可以通过基数约束来表达。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041526631.png" alt="" loading="lazy"><br>
+汽车队轮子的基数约束是0…1,这样的约束表示非强制参与联系, 轮子对汽车的约束 4…4, 强制参与联系.</li>
+</ul></details>
+
+<li>与非独占联系相反，还有一种Part-of联系是<code>独占</code>联系。即整体实体如果被破坏，部分实体不能存在，在E-R图中用<code>弱实体类型和识别联系</code>来表示独占联系。如果<code>一个实体型的存在依赖于其他实体型的存在</code>，则<code>这个实体型叫做弱实体型</code>，否则叫做<code>强实体型</code>。</li>
+<li>在E-R图中用双矩形表示弱实体型，用双菱形表示识别联系。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041532199.png" alt="" loading="lazy"></li>
+</ul>
+
+</details></ul>
+
+<details>
+<summary><strong><code>E-R图的集成</code></strong></summary>
+<ul>
+<li>经常采用的策略是自顶向下地进行需求分析，然后再自底向上地设计概念结构。即首先设计各子系统的分E-R图，然后将它们集成起来，得到全局E-R图。<br>
+<img src="https://cdn.jsdelivr.net/gh/s1acr/PicGoLib@main/2023-6/202306041541081.png" alt="" loading="lazy"></li>
+</ul></details>
+
+</details></ul>
+
+
+</details></div><div class="φbu φbx">
+<details>
+<summary><strong><code>逻辑结构设计</code></strong></summary>
+<ul>
+<li>概念结构是独立于任何一种数据模型的信息结构，逻辑结构设计的任务就是把概念结构设计阶段设计好的基本E-R图转换为与选用数据库管理系统产品所支持的数据模型相符合的逻辑结构。</li>
+<li>一般一个实体型转换为一个关系模式</li>
+</ul></details>
+
+
+</div><div class="φbu φbx">
+<details>
+<summary><strong><code>物理结构设计</code></strong></summary>
+<ul>
+<li>为一个给定的逻辑数据模型选取一个最适合应用要求的物理结构的过程.</li>
+<li><strong><code>关系模式存取方法选择</code></strong></li>
+<li>存取方法是快速存取数据库中数据的技术。数据库管理系统一般提供多种存取方法。常用的存取方法为<code>索引方法和聚簇(clustering)方法</code>。B+树索引和hash索引是数据库中经典的存取方法，使用最普遍。</li>
+</ul></details>
+
+
+</div><hr>
+<p><strong>参考</strong></p>
+<ol>
+<li>数据库系统概论/王珊 第五版</li>
+</ol>
+</div><is-e class="φu"><!----><ul class="φy"><li class="φw"><strong class="φx">Author<span>:</span></strong><p class="φv">slacr_</p></li><li class="φw"><strong class="φx">Copyright<span>:</span></strong><p class="φv"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="/lib/cc-by-nc-sa.svg">CC BY-NC-ND 4.0</a></p></li><li class="φw"><strong class="φx">Published<span>:</span></strong><p class="φv">June 3, 2023</p></li><li class="φw"><strong class="φx">Updated<span>:</span></strong><p class="φv">June 3, 2023</p></li><!----></ul><!----></is-e><!----><is-j class="φcm"><p class="φcr">Buy me a cup of coffee ☕.</p><div class="φco"><div class="φct"><a class="φcs φa iκ-wechat" style="color:;"></a><a class="φcs" style="color:;">支</a><!----></div><div class="φcq"><!----></div></div></is-j><!----><div><div issnippet="" class="φb">
+
+
+<link href="https://cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/clipboard.css" rel="stylesheet">
+</div><!----></div><!----></article><footer class="φex"><!----><div class="φey"><a class="φez φfb" href="/2023/06/03/%5BVScode%5Dleetcode%E8%B0%83%E8%AF%95%E5%88%B7%E9%A2%98">[VScode]leetcode调试刷题</a><!----><a class="φez φfa" href="/2023/06/01/%5BVScode%5D%E9%85%8D%E7%BD%AEC_C%2B%2B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83">[VScode]配置C_C++开发环境</a><!----></div><!----></footer><is-d class="φt"><div issnippet=""><div id="vcomments"></div>
+
+</div><!----></is-d><!----><!----><!----></is-r><!----></main><!----></div></div></div><is-f class="φz"><div class="φbi"><span class="φa iκ-up"></span><span class="φa iκ-down"></span><!----><span class="φa iκ-toc"></span><!----><span class="φa iκ-search"></span><!----></div><div class="φbb φbc"><svg class="φbh"><defs><filter id="dp"><feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur></filter></defs><circle filter="url(#dp)" fill="rgba(0,0,0,.3)" cx="50%" cy="52%" r="44%"></circle><circle cx="50%" cy="50%" r="44%" class="φbd"></circle><circle cx="50%" cy="50%" r="48%" class="φbg" stroke-dasharray="0% 314.15926%"></circle><!----><g class="φbe"><circle r=".2rem" cx="0" cy="-.8rem"></circle><circle r=".2rem"></circle><circle r=".2rem" cx="0" cy=".8rem"></circle></g><!----></svg></div></is-f><is-m class="φdq"><div class="φds φdt"><a class="φdv"><span class="φdx">1 </span><!----><span class="φdy">关系数据理论</span></a><!----></div><div class="φds φdt"><a class="φdv"><span class="φdx">2 </span><!----><span class="φdy">数据库设计</span></a><!----></div><!----></is-m><!----><!----></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script><script src="//unpkg.com/valine/dist/Valine.min.js"></script><script src="//cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="//cdn.jsdelivr.net/gh/s1acr/my_jsDelivr@main/blogSelfDesign.js"></script><script src="/runtime.1ed960b0635ea0669f87.js"></script><script src="/polyfills.b7bf56fc45f931a8b83e.js"></script><script src="/main.543c891b4aad158701f3.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"superSample":2,"position":"right","hOffset":0,"vOffset":-20,"bottom":100,"width":150,"height":200},"mobile":{"show":true,"scale":0.5},"react":{"opacity":0.7,"opacityDefault":0.7,"opacityOnHover":0.9},"log":false});</script>
+
+</body></html>
